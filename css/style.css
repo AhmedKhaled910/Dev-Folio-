@@ -1,0 +1,388 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+.box {
+    background-color: white;
+    margin: 5%;
+    box-shadow: 1px 1px 0.3rem rgb(156, 156, 156);
+}
+
+.navbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 999;
+}
+
+
+.home{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.home-sec {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.home-sec h1{
+    font-size: 70px;
+}
+nav .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.typewriter::after {
+    content: "";
+    animation-name: typing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    font-size: 44px;
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    bottom: -2px;
+    transition: width 1s ease;
+  }
+  
+  .nav-item:hover::after {
+    width: 100%;
+  }
+  
+
+@keyframes typing{
+    0%{ content: "|"; }
+    2%{ content: "D|"; }
+    4%{ content: "De|"; }
+    6%{ content: "Dev|"; }
+    8%{ content: "Deve|"; }
+    10%{ content: "Devel|"; }
+    12%{ content: "Develo|"; }
+    14%{ content: "Develop|"; }
+    16%{ content: "Develope|"; }
+    18%{ content: "Developer|"; }
+    20%{ content: "Develope|"; }
+    22%{ content: "Develop|"; }
+    24%{ content: "Develo|"; }
+    26%{ content: "Devel|"; }
+    28%{ content: "Deve|"; }
+    30%{ content: "Dev|"; }
+    32%{ content: "De|"; }
+    34%{ content: "D|"; }
+    36%{ content: "|";}
+    38%{ content: "|"; }
+    40%{ content: "D|"; }
+    42%{ content: "De|"; }
+    44%{ content: "Des|"; }
+    46%{ content: "Desi|"; }
+    48%{ content: "Desig|"; }
+    50%{ content: "Design|"; }
+    52%{ content: "Designe|"; }
+    54%{ content: "Designer|"; }
+    56%{ content: "Designe|"; }
+    58%{ content: "Design|"; }
+    60%{ content: "Desig|"; }
+    62%{ content: "Desi|"; }
+    64%{ content: "Des|"; }
+    66%{ content: "De|"; }
+    68%{ content: "D|"; }
+    70%{ content: "|"; }
+    72%{ content: "F|"; }
+    74%{ content: "Fr|";}
+    76%{ content: "Fre|"; }
+    78%{ content: "Free|"; }
+    80%{ content: "Freel|"; }
+    82%{ content: "Freela|"; }
+    84%{ content: "Freelan|"; }
+    86%{ content: "Freelanc|"; }
+    88%{ content: "Freelance|"; }
+    90%{ content: "Freelancer|"; }
+    91%{ content: "Freelance|"; }
+    92%{ content: "Freelanc|"; }
+    93%{ content: "Freelan|"; }
+    94%{ content: "Freela|"; }
+    95%{ content: "Freel|"; }
+    96%{ content: "Free|"; }
+    97%{ content: "Fre|"; }
+    98%{ content: "Fr|";}
+    99%{ content: "F|";}
+    100% { content: "|";}
+}
+
+.skills h5{
+    color: rgb(121, 121, 121);
+    font-size: 16px;
+}
+.first {
+    width: 80%;
+}
+.second {
+    width: 90%;
+}
+.bottom-line {
+    border-bottom: 5px solid rgb(0, 166, 216);
+    width: fit-content;
+    padding: 10px;
+}
+
+.content p{
+    padding-top: 2%;
+}
+
+.services h2{
+    font-size: 60px;
+    padding: 2%;
+    text-transform: uppercase;
+}
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: #005eca;
+    margin: 0 auto;
+}
+
+
+.services .col-md-4 .content{
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 20px 40px;
+    box-shadow: 0px 2px 0.2rem gray;
+}
+
+.services .content i{
+    padding: 45px 30px;
+    border: 8px solid #0078ff;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: all 1s;
+}
+
+.services .content:hover i{
+    border: 8px solid #89bcf7;
+    background-color: #0078ff;
+    color: #fff;
+}
+
+.counter {
+    margin-top: 20px;
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay_layer {
+    background-color: #0078ff;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.counter .col-md-3 {
+    padding: 50px;
+    position: relative;
+}
+
+.counter .col-md-3 i{
+    padding: 40px 30px;
+    margin-bottom: 10px;
+    border: 10px solid #ebf4ff;
+    border-radius: 50%;
+}
+
+.portfolio h2{
+    font-size: 60px;
+}
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: #0051ff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.row .image{
+    overflow: hidden;
+}
+
+.row img{
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.portfolio .row .box{
+    background-color: #fff;
+
+}
+
+.portfolio i{
+    padding: 20px 10px;
+    border: 5px solid #0078ff;
+    border-radius: 50%;
+    color: #0078ff;
+}
+
+.portfolio .text {
+    padding: 10px;
+}
+
+.portfolio .row .box:hover img{
+    transform: scale(1.2);
+    
+}
+
+.slider {
+    width: 100%;
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.slider .circle-icon button{
+    border-radius: 50%;
+    height: 20px;
+}
+
+.slider img{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    margin-bottom: 200px;
+}
+
+.blog{
+    padding-top: 20px;
+}
+
+.blog h2{
+    font-size: 60px;
+}
+
+.blog .col-md-4 .box{
+    background-color: #fff;
+    box-shadow: 0px 2px 0.5rem rgb(208, 208, 208);
+    border: 0.2px solid rgb(209, 209, 209);
+    border-radius: 2px;
+}
+
+.blog .image{
+    max-width: 100%;
+}
+
+.blog a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.blog .col-8 img{
+    width: 40px;
+    height: 40px;
+}
+
+.blog .text {
+    padding: 20px 10px;
+}
+
+.blog .small-card{
+    transform: translateY(-100%);
+}
+
+.blog .text .small-card span{
+    background-color: #0078ff;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.blog .row .detail{
+    padding: 10px 0;
+    border-top: 0.5px solid rgb(209, 209, 209);
+}
+
+.blog a:hover{
+    color: #0078ff;
+}
+
+.contacts {
+    height: 100vh;
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    margin-top: 30px;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.contacts .contact-info{
+    background-color: #fff;
+    margin: 60px auto;
+    padding: 30px 20px;
+}
+
+.contacts .col-md-6 .form-floating{
+    margin: 20px 0;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #0078ff;
+    border: 5px solid #fff;
+    max-width: 50%;
+    margin: 10px auto;
+    transition: all 0.5s;
+}
+
+.contacts a:hover{
+    border: 5px solid #89bcf7;
+}
+
+.contacts i{
+    color: #0078ff;
+}
+
+.contacts .icons i{
+    color: #000;
+    border: 5px solid #0078ff;
+    padding: 20px 10px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.contacts .icons i:hover{
+    border: 5px solid #89bcf7;
+    background-color: #0078ff;
+    color: #fff;
+}
+
+.footer{
+    height: 100px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #005eca;
+    color: #fff;
+    box-shadow: 10px -10px 2rem #000000;
+}
